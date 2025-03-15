@@ -1,7 +1,7 @@
 #!/bin/bash
 password=""
 
-until [ "$password" == "secret" ]
+until [ "$password" == "kisip" ]
 do
      read -sp "enter password: " password
      echo
